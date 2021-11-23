@@ -31,6 +31,12 @@
     "url": "https://github.com/reflektor-digital-inc/eslint-plugin-react/issues"
   },
   "homepage": "https://github.com/reflektor-digital-inc/eslint-plugin-react#readme",
+  "peerDependencies": {
+    "eslint": ">=8.3.0",
+    "eslint-plugin-jsx-a11y": ">=6.5.1",
+    "eslint-plugin-react": ">=7.27.1",
+    "eslint-plugin-react-hooks": ">=4.3.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
