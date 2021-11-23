@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react-reflektor",
+  "name": "eslint-plugin-react",
   "version": "1.0.0",
   "description": "ESLint configuration for React projects at Reflektor Digital",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reflektor-digital-inc/eslint-config-react-reflektor.git"
+    "url": "git+https://github.com/reflektor-digital-inc/eslint-plugin-react.git"
   },
   "keywords": [
     "eslint",
@@ -28,9 +28,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reflektor-digital-inc/eslint-config-react-reflektor/issues"
+    "url": "https://github.com/reflektor-digital-inc/eslint-plugin-react/issues"
   },
-  "homepage": "https://github.com/reflektor-digital-inc/eslint-config-react-reflektor#readme",
+  "homepage": "https://github.com/reflektor-digital-inc/eslint-plugin-react#readme",
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
