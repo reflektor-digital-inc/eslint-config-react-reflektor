@@ -9,9 +9,6 @@
     "postinstall": "npm run prepare",
     "pre-commit": "echo \"Running Husky 🐶\n\" && lint-staged"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@reflektor-digital-inc"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/reflektor-digital-inc/eslint-plugin-react.git"
