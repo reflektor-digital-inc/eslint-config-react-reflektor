@@ -6,7 +6,6 @@
   "scripts": {
     "test": "eslint . -c ./.eslintrc.js",
     "prepare": "husky install",
-    "postinstall": "npm run prepare",
     "pre-commit": "echo \"Running Husky 🐶\n\" && lint-staged"
   },
   "repository": {
