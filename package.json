@@ -1,5 +1,5 @@
 {
-  "name": "@reflektor-digital-inc/eslint-plugin-react",
+  "name": "eslint-plugin-react",
   "version": "1.0.33-alpha",
   "description": "ESLint configuration for React projects at Reflektor Digital",
   "main": "index.js",
