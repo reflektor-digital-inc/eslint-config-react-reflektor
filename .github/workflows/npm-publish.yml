@@ -21,8 +21,6 @@ jobs:
           node-version: 14
       - run: npm ci
       - run: npm test
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-npm:
     needs: build
@@ -42,7 +40,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
+      pull-requests: write 
       packages: write
     steps:
       - uses: actions/checkout@v2
