@@ -30,15 +30,17 @@
     "prepare": "husky install",
     "pre-commit": "echo \"\nRunning Husky 🐶\n\" && lint-staged"
   },
+  "peerDependencies": {
+    "eslint": "^8.3.0",
+    "@reflektor/eslint-config-react": "latest",
+    "eslint-config-next": "^12.0.4"
+  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
-    "@reflektor/eslint-config-react": "^1.0.1-alpha",
-    "eslint": "^8.3.0",
+    "@reflektor/eslint-config-react": "latest",
     "eslint-config-next": "^12.0.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint": "^8.3.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2"
   },
