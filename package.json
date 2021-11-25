@@ -1,6 +1,6 @@
 {
   "name": "@reflektor/eslint-plugin-react",
-  "version": "1.0.7-alpha",
+  "version": "1.0.8-alpha",
   "main": "index.js",
   "description": "Reflektor's ESLint plugin for React",
   "keywords": [
@@ -32,8 +32,11 @@
   },
   "peerDependencies": {
     "eslint": "^8.3.0",
-    "@reflektor/eslint-config-react": "latest",
-    "eslint-config-next": "^12.0.4"
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-config-next": "^12.0.4",
+    "@reflektor/eslint-config-react": "^1.0.2-alpha"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
